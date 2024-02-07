@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  httpd:
+    container_name: daiwa-analytics-platform-httpd
+    image: daiwa-analytics-platform-httpd
+
+  node:
+    container_name: daiwa-analytics-platform-node
+    image: daiwa-analytics-platform-node
+    environment:
+      - NODE_ENV=production
+      - TZ=Asia/Hong_Kong
+    volumes:
+      - ./storages/data:/app/data

@@ -1,0 +1,78 @@
+{
+  "name": "portfolio-template",
+  "type": "PORTFOLIO",
+  "createdDate": "20221207T022825Z",
+  "lastUpdateDate": "20221207T022825Z",
+  "input": [],
+  "excel": [],
+  "viewVisble": {
+    "HISTORICAL_INTRADAY_PROFILES": true,
+    "TRADE_SCHEDULE_ESTIMATE": true,
+    "OPTIMIZED_PARAMETERS": true,
+    "PORTFOLIO_SUMMARY": true,
+    "PORTFOLIO_BREAKDOWN": true
+  },
+  "layout": [
+      {
+          "w": 6,
+          "h": 12,
+          "x": 0,
+          "y": 0,
+          "i": "a",
+          "minW": 6,
+          "minH": 12,
+          "moved": false,
+          "static": false,
+          "isResizable": true
+      },
+      {
+          "w": 7,
+          "h": 12,
+          "x": 6,
+          "y": 0,
+          "i": "b",
+          "minW": 7,
+          "minH": 12,
+          "moved": false,
+          "static": false,
+          "isResizable": true
+      },
+      {
+          "w": 7,
+          "h": 19,
+          "x": 13,
+          "y": 0,
+          "i": "c",
+          "minW": 7,
+          "minH": 19,
+          "moved": false,
+          "static": false,
+          "isResizable": true
+      },
+      {
+          "w": 9,
+          "h": 14,
+          "x": 0,
+          "y": 26,
+          "i": "e",
+          "minW": 8,
+          "minH": 14,
+          "moved": false,
+          "static": false,
+          "isResizable": true
+      },
+      {
+          "w": 9,
+          "h": 14,
+          "x": 0,
+          "y": 12,
+          "i": "f",
+          "minW": 9,
+          "minH": 14,
+          "moved": false,
+          "static": false,
+          "isResizable": true
+      }
+  ],
+  "permission": "PRIVATE"
+}

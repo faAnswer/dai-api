@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  httpd:
+    ports:
+      - "9000:443"
+
+  node:
+    ports:
+      - "3000:3000"
+      - "5001:5001"
+    env_file:
+      - .env.local

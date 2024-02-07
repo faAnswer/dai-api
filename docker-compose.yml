@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  node:
+    container_name: daiwa-analytics-platform-node
+    build:
+      context: ./dockerfiles/node
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+      - "5001:5001"
+    volumes:
+      - ./:/app
+    environment:
+      - NODE_ENV=production
+      - TZ=Asia/Hong_Kong
+    # command: >
+    #   bash -c "yarn && yarn prod"
+
+volumes:
+  data:
+    driver: 'local'
